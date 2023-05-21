@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+@import url('https://fonts.googleapis.com/css?family=Donegal One');
+
+.boxGame{
+  background: var(--bg);
+  border: 5px solid var(--border);
+
+  display: inline-block;
+  min-width: 210px;
+  max-width: 210px;
+  min-height: 210px;
+  max-height: 210px;
+}
+
+.thumb{
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  margin:-12px;
+}
+
+.playButton{
+  background-color: var(--bg);
+  color: var(--font);
+
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer; 
+  display: inline-block;
+
+  padding: 10px;
+  font-size: 15;
+  margin: 7px;
+}
+
+.description{
+  padding-left: 440px;
+  margin: -200px;
+  max-width: 500px;
+}
+
+.gameCenter{
+  background: var(--bg);
+
+  width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Lobster';
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family:'Aclonica';font-size: 30px;
+}
+
+h3 {
+  text-align: left;
+  font-family:'Donegal One';font-size: 20px;
+  padding: 10px;
+}
+
+.center{
+  width: 800px;
+  margin:0 auto;
+  background: #ffa500;
+}
+
+.middle2{
+  width: 50%;
+  margin:0 auto;
+  text-align:center;
+  background: #FFAF00;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff3c00;
+}
+
+.rcorners2 {
+    border-radius: 10px 10px 10px 10px;
+}
